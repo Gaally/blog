@@ -1,0 +1,23 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaally/blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gaally/blog/issues"
+  },
+  "homepage": "https://github.com/Gaally/blog#readme",
+  "dependencies": {
+    "mongodb": "^3.5.4",
+    "monk": "^7.1.2"
+  }
+}
