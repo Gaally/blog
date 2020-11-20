@@ -85,8 +85,6 @@ body{
 
 
 
-
-
 h1, h2, h3, h4, h5, h6{
     margin: 0;
 }
@@ -94,18 +92,6 @@ h1, h2, h3, h4, h5, h6{
 p{
     color: #000000;
 }
-
-/* header{
-    background-color: #3633BB;
-    color: #ffffff;
-    text-align: center;
-    padding: 5%;
-    min-height: 150px;
-}
-
-header h1{
-    font-weight: 700;
-} */
 
 .main{
     min-height: 100%;
@@ -173,6 +159,7 @@ footer{
     background-color: #3633BB;
     color: #ffffff;
     min-height: 120px;
+    margin: 30% 0 0 0;
     padding: auto;
 }
 
@@ -192,3 +179,20 @@ footer{
     padding: 0.5rem;  
     max-height: 45px;
 }
+
+
+/* media query header*/
+@media (min-width: 650px){
+
+    .topnav a.icon{
+      display:none;
+      }
+    .topnav #myLinks{
+      display: flex;
+    }
+    #icons-plus{
+      display: none;
+    
+    }
+    
+    }
