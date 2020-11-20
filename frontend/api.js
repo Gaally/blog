@@ -22,6 +22,7 @@ const generateHtml = (articles) => {
             	<div class="heroImage" style="background-image: ${url}">
                 <div class="title">${articles["articles"][i].articleTitle}</div>
             </div>
+		<button class="btn" onclick="renderArticle('${articles["articles"][i]._id}')">Lire la suite</button>
           </div>
 	 		` 		
 	 console.log (url);
