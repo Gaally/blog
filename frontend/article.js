@@ -11,9 +11,8 @@ fetch(`${url}/${id}`)
     .then(data => generateHtml(data));
 }
 
-const generateHtml=(art) =>{
-    console.log(art)
-    const article = art["article"]
+const generateHtml=(article) =>{
+    
     const html=`
     <div class="heroImage"><style>.heroImage{background-image:url(${article.heroImage});}</style>
         <div class="row">    
