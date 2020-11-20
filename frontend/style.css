@@ -1,0 +1,181 @@
+html{
+ height:  100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100%;
+  
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #3633bb;
+  position: relative;
+  padding-left: 5%;
+  margin-bottom: 20%;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+  width: 15%;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #3633bb;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #3633bb;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #3633bb;
+  color: white;
+  float: right;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+#icons-plus{
+    float: right;
+     margin: 1rem;
+    padding: 0.5rem;  
+    max-height: 45px;
+}
+
+.topnav #myLinks input{
+  width:10%;
+  height: auto;
+}
+
+.bottons{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+
+
+}
+button{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #3633bb;
+  font-size: 10px;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+
+.title{
+  
+  justify-content: center;
+  color: white;
+  font-family: 'Poppins', bold 700, sans-serif;
+  font-size: 18px;
+  padding:5%;
+  background-color:rgba(0, 0, 0, 0.6);
+  margin-top: 10%;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border-radius:4px;
+} 
+
+.heroImage
+{
+  background-image: url(images/article1.jpg);
+  background-repeat: no-repeat;
+  height: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 20%;
+  -moz-border-radius:7px;
+-webkit-border-radius:7px;
+margin-bottom: 20%;
+}
+
+.row{
+  flex-direction: column;
+}
+
+/*FOOTER*/
+footer{
+    display: flex;
+    background-color: #3633BB;
+    color: #ffffff;
+    min-height: 120px;
+    margin: 30% 0 0 0;
+    padding: auto;
+}
+
+.footerNav{
+    display: block;
+    text-align: center;
+    padding: 5%;
+}
+
+.footerNav p, .footerNav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.ancor1, .ancor1 img{
+    margin: 1rem;
+    padding: 0.5rem;  
+    max-height: 45px;
+}
+
+@media (min-width: 650px){
+.row {
+    flex-direction: row;
+    }
+.topnav a.icon{
+  display:none;
+  }
+.topnav #myLinks{
+  display: flex;
+}
+#icons-plus{
+  display: none;
+
+}
+
+}
