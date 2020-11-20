@@ -30,20 +30,3 @@ const generateHtml = (articles) => {
 
  rowDiv.innerHTML = html
 }
-
-// var precedent = document.getElementById("precedent")
-// precedent.onclick = function(){
-// 	id --;
-// 	fetch(`${url}${type}/${id}`)
-// 	.then( (data) => data.json())
-//  	.then((pokemon) => generateHtml(pokemon))
- 	
-// };
-// //fetch me permet d'appeler les élement que je vaux afficher et les modifier
-// var suivant = document.getElementById("suivant")
-// suivant.onclick = function(){
-// 	id ++;
-// 	fetch(`${url}${type}/${id}`)
-// 	.then( (data) => data.json())
-//  	.then((pokemon) => generateHtml(pokemon))
-//  };
