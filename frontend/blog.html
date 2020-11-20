@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+<link rel = "stylesheet" href ="formulaire.css">
+
+<script src = "main.js" async></script>
+</head>
+
+<body>
+  <header>
+  <div class="ancor2"></div>
+
+    <div class="topnav">
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="#news">Accueil</a>
+        <a href="#contact">Catégorie</a>
+        <a href="#about">Écrire</a>
+      </div>
+        <h1>Le blog des codeuses</h1>
+        <h2>Des ressources sur le dev web</h2>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="#"><img src="images/icons-plus.svg" id="icons-plus"></a>
+    </div>
+</header>
+
+
+    <h1>Poster une ressource</h1>
+	
+	
+        <div class ="container">
+    <form action="http://localhost:3000/api/articles" method="post">
+        <input type="text" placeholder="Titre de l'article" name="articleTitle" id="articleTitle"/><br>
+
+        <input type="text" placeholder="Lien de la source" name= "urlRessource" id="urlRessource"/><br>
+
+        <textarea name = "description" rows ="20" id= "description">Description de l'article</textarea><br>
+
+        <input type="text" placeholder="URL de l'image" name = "heroImage" id="heroImage"/><br>
+        <input  type="submit" value="Publier"/>
+    </form>
+    
+       
+    </div>
+    <footer>
+        <div class="row column-offset-85 footerNav">
+          <p>Contact<br>
+            Warda Tiphaine Sophie Louise-Anne<br>
+          <a href="#" alt="Liens Github">Liens Github</a></p>
+        </div>
+      <img class="column-offset-15 ancor1" src="images/arrow_up.png" alt="retour en haut" title="retour en haut"></img>
+    </footer> 
+    
+
+</body>
+</html>
+  

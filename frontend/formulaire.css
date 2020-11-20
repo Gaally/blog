@@ -1,0 +1,83 @@
+body{
+    background: #E0E0E0 ;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+form{
+    height:300px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0em ;
+    padding: 2px;
+  
+}
+
+input[type='text']{
+    width: 50vw;
+    background-color: white ;
+}
+.button,input[type='button']{
+    display: block;
+    border: none;
+    background-color: #3633BB;
+}
+textarea{
+    width: 50vw;
+    height: 10vh;
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #3633bb;
+    position: relative;
+    padding-left: 5%;
+    margin-bottom: 20%;
+  }
+  
+ 
+  .topnav #myLinks {
+    display: none;
+    width: 15%;
+  }
+  
+ 
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  
+  .topnav a.icon {
+    background: #3633bb;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+    
+  .topnav a:hover {
+    background-color: #3633bb;
+    color: black;
+  }
+  
+
+  .active {
+    background-color: #3633bb;
+    color: white;
+    float: right;
+  }
+ 
